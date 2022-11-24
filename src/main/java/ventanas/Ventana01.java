@@ -141,7 +141,7 @@ public class Ventana01 extends JFrame {
         this.jPanelList.get(32).add(this.jPanelList.get(25),BorderLayout.CENTER);
         this.jPanelList.get(32).add(this.jPanelList.get(5),BorderLayout.NORTH);
         this.jPanelList.get(32).add(this.jPanelList.get(6),BorderLayout.EAST);
-        this.jPanelList.get(32).add(this.jPanelList.get(7),BorderLayout.SOUTH);
+        //this.jPanelList.get(32).add(this.jPanelList.get(7),BorderLayout.SOUTH);
         this.jPanelList.get(32).add(this.jPanelList.get(8),BorderLayout.WEST);
         this.jPanelList.get(26).setLayout(new BorderLayout());
         this.jPanelList.get(26).setBorder(new BevelBorder(BevelBorder.RAISED));
@@ -175,7 +175,7 @@ public class Ventana01 extends JFrame {
         this.jPanelList.get(29).add(this.jPanelList.get(4),BorderLayout.CENTER);
         this.jPanelList.get(36).setLayout(new BorderLayout());
         this.jPanelList.get(36).add(this.jPanelList.get(29),BorderLayout.CENTER);
-        this.jPanelList.get(36).add(this.jPanelList.get(21),BorderLayout.NORTH);
+        //this.jPanelList.get(36).add(this.jPanelList.get(21),BorderLayout.NORTH);
         this.jPanelList.get(36).add(this.jPanelList.get(22),BorderLayout.EAST);
         this.jPanelList.get(36).add(this.jPanelList.get(23),BorderLayout.SOUTH);
         this.jPanelList.get(36).add(this.jPanelList.get(24),BorderLayout.WEST);

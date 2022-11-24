@@ -13,6 +13,7 @@ public class Principal {
     var Ventana1= new Ventana01();
     var ventana02=new Ventana02();
     var ventanaespecial=new VentanaEspecial();
+    var ventana03=new Ventana3();
     
 }
 }
