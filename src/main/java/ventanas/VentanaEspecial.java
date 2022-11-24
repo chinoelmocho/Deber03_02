@@ -19,7 +19,6 @@ import java.awt.Dimension;
 import java.util.HashSet;
 import javax.swing.*;
 
-
 /**
  *
  * @author David
@@ -27,22 +26,22 @@ import javax.swing.*;
 public class VentanaEspecial extends JFrame {
 
     private List<JPanel> jPanelList;
-     JLayeredPane PanelBase ;
-    
+    JLayeredPane PanelBase;
+
     public VentanaEspecial() throws HeadlessException {
         PanelBase = new JLayeredPane();
         this.setTitle("Grid Layout");
         this.setSize(300, 200);
         this.setLocation(800, 700);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-           this.iniciarPaneles();
+        this.iniciarPaneles();
         this.setContentPane(PanelBase);
         this.setVisible(true);
 
     }
 
     public void iniciarPaneles() {
-        
+
         this.jPanelList = new ArrayList<>();
         this.jPanelList.add(new JPanel());
         this.jPanelList.add(new JPanel());
@@ -306,29 +305,15 @@ public class VentanaEspecial extends JFrame {
         this.jPanelList.get(37).add(this.jPanelList.get(48));
         this.jPanelList.get(37).add(this.jPanelList.get(76));
 
-        
-    
-     
-        
- 
-       
-        
-        
         this.jPanelList.get(31).setSize(new Dimension(290, 162));
-        
-  
-        
-        PanelBase .add(this.jPanelList.get(31), new Integer(1));
-        
-       
-        
+
+        PanelBase.add(this.jPanelList.get(31), new Integer(1));
+
         this.jPanelList.get(37).setSize(new Dimension(150, 100));
-        this.jPanelList.get(37).setLocation(72,30);
+        this.jPanelList.get(37).setLocation(72, 30);
 
+        PanelBase.add(this.jPanelList.get(37), new Integer(2));
 
-        PanelBase .add(this.jPanelList.get(37), new Integer(2));
-      
-        
     }
 
 }
