@@ -11,5 +11,8 @@ package ventanas;
 public class Principal {
     public static void main(String[] args) {
     var Ventana1= new Ventana01();
+    var ventana02=new Ventana02();
+    var ventanaespecial=new VentanaEspecial();
+    
 }
 }
